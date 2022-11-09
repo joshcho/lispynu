@@ -1,0 +1,7 @@
+LispyNu is a set of interactive functions enhancing [[https://github.com/abo-abo/lispy][Lispy]], an Emacs package for structured Lisp editing.
+
+Functions:
+- lispynu-try
+- lispynu-isetf
+- lispynu-isetf-revers
+- lispynu-idefun
