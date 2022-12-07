@@ -101,7 +101,7 @@
 (defun %defun-or-macro-p (sexp)
   "Checks if SEXP is defun or macro."
   (cl-member (car sexp)
-             '(defun defmacro cl-defun cl-defmacro defgeneric defvar* defun* defmacro*)
+             '(defun defmacro cl-defun cl-defmacro defgeneric defvar* defun* defmacro* defn)
              :test #'equal))
 
 (defun %get-operator-and-operands (sexp)
